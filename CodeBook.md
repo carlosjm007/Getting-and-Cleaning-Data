@@ -28,7 +28,7 @@
   - STANDING
   - LAYING
 
-All this variables are the mean for each activity and each subject.
+All this variables are the mean for each activity and each subject in ```step5.txt```.
 -	tBodyAcc-mean()-X
 -	tBodyAcc-mean()-Y
 -	tBodyAcc-mean()-Z
