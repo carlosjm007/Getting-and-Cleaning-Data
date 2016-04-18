@@ -27,6 +27,8 @@
   - SITTING
   - STANDING
   - LAYING
+
+All this variables are the mean for each activity and each subject.
 -	tBodyAcc-mean()-X
 -	tBodyAcc-mean()-Y
 -	tBodyAcc-mean()-Z
