@@ -1,6 +1,14 @@
 library(data.table)
 library(dplyr)
 
+if (!file.exists("getdata_dataset.zip")){
+    fileURL <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip "
+    download.file(fileURL, "getdata_dataset.zip", mode='wb')
+}  
+if (!file.exists("UCI HAR Dataset")) { 
+    unzip("getdata_dataset.zip") 
+}
+
 activity_labels <- read.table("UCI HAR Dataset/activity_labels.txt")
 features <- tbl_df(read.table("UCI HAR Dataset/features.txt"))
 subject_test <- read.table("UCI HAR Dataset/test/subject_test.txt")
