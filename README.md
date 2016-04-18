@@ -8,6 +8,6 @@ If the file is already downloaded, it goes on without download it.
 
 The script uses ```dplyr``` library, so if you don't have installed it, please type ```install.packages("dplyr")``` in your R console.
 
-To run the code type ```source("run_analysis.R")```.
+To run the code, download ```run_analysis.R``` into your Working Directory in RStudio and type ```source("run_analysis.R")``` in the console.
 
 We also find a .md file called ```CodeBook.md```, it describes all stored variables into the  ```step4.txt``` and ```step5.txt``` files.
