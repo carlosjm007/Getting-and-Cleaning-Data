@@ -20,7 +20,13 @@
 ## ```step4.txt``` and ```step5.txt```
 
 -	subject: Id subject.
--	activity: Activity from ```activity_labels```
+-	activity: Activity from ```activity_labels```.
+  - WALKING
+  - WALKING_UPSTAIRS
+  - WALKING_DOWNSTAIRS
+  - SITTING
+  - STANDING
+  - LAYING
 -	tBodyAcc-mean()-X
 -	tBodyAcc-mean()-Y
 -	tBodyAcc-mean()-Z
